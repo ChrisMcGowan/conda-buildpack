@@ -125,7 +125,7 @@ source $BIN_DIR/steps/hooks/post_compile
 
 # ### Fin.
 
-echo "time to halt the party"
+echo "time to halt the party -no find your container"
 sleep 10000000
 
 deep-mv $BUILD_DIR $ORIG_BUILD_DIR
