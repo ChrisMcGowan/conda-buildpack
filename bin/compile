@@ -6,7 +6,7 @@
 
 
 # Fail fast and fail hard.
-set -eo pipefail
+set -eox pipefail
 
 # Prepend proper path for virtualenv hackery. This will be deprecated soon.
 export PATH=:/usr/local/bin:$PATH
